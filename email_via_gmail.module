@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_update_projects_alter()
+ */
+function email_via_gmail_update_projects_alter(&$projects) {
+
+    // if you want to see email_via_gmail in the update status report,
+    // you can safely delete this function, or delete this entire file.
+
+    // remove the email_via_gmail module from the update status report.
+    unset($projects['email_via_gmail']);
+}

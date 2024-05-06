@@ -1,0 +1,5 @@
+email_via_gmail.gmail_settings:
+  title: 'PHPMailer Gmail OAuth2'
+  route_name: email_via_gmail.gmail_settings
+  parent: system.admin_config_system
+  description: "Configure the PHPMailer OAuth2 module."

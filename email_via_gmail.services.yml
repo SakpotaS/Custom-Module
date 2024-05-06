@@ -1,0 +1,5 @@
+services:
+
+  email_via_gmail.gmail_provider:
+    class: Drupal\email_via_gmail\Service\GmailProviderService
+    arguments: ['@config.factory', '@request_stack']

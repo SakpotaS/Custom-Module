@@ -1,0 +1,14 @@
+{
+    "name": "drupal/email_via_gmail",
+    "description": "Drupal module for sending email via Gmail using OAuth2 authentication of PHPMailer.",
+    "type": "drupal-module",
+    "version": "1.0.0",
+    "require": {
+        "drupal/core": "^9|^10",
+        "league/oauth2-google": "^4.0",
+        "drupal/phpmailer_smtp": "^2.2.5"
+    },
+    "support": {
+        "source": "https://github.com/iagsdc/email_via_gmail"
+    }
+}

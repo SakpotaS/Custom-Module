@@ -1,0 +1,10 @@
+name: Email via Gmail
+description: Gmail client of PHPMailer SMTP using OAuth2
+type: module
+package: Mail
+core_version_requirement: ^9 || ^10
+dependencies:
+  - phpmailer_smtp:phpmailer_smtp
+version: '1.0.0'
+project: 'email_via_gmail'
+datestamp: 1687657819

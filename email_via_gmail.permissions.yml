@@ -1,0 +1,3 @@
+administer phpmailer gmail_oauth2 settings:
+  title: 'Administer PHPMailer Gmail OAuth2 settings'
+  restrict access: TRUE
